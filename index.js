@@ -8,6 +8,7 @@ const PORT = process.env.port || 3000
 
 let list = ['apple', 'banana', 'orange']
 
+
 app.get('/', (req,res)=>{
   res.send(list)
 })
